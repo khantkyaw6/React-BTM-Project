@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.appContainer {
+  font: 16px Cambria;
+}
+
+#appNavbar,
+#header {
+  background-image: linear-gradient(16deg, #13547a 0%, #80d0c7 100%);
+}
+
+.header-title,
+.header-para {
+  color: #fff;
+}
+
+.header-btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10%;
+  color: #13547a;
+}
+
+.imgChg {
+  width: 100%;
+}
+
+.app-box {
+  background-image: linear-gradient(16deg, #13547a 0%, #80d0c7 100%);
+  padding: 10px;
+}
+
+.app-body {
+  margin-top: 20px;
+}
+
+.app-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.app-btn:hover {
+  background-color: #000;
+  color: #80d0c7;
+}
+
+.app-body p {
+  padding: 30px;
+}
+
+.card-btn {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(138, 59, 59);
+  color: #80d0c7;
+  line-height: 40px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card {
+  /* background-image: linear-gradient(16deg, #13547a 0%, #80d0c7 100%);  */
+  padding: 0px;
+  margin: 40px;
+}
